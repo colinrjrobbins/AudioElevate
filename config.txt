@@ -1,0 +1,13 @@
+[VOLUME SETTINGS]
+default_volume(0-62) = 31
+min_volume(62-default) = 31
+max_volume(default-62) = 50
+
+[TIME DELAY SETTINGS]
+bell_length_safety(MIN=10=1seconds) = 100
+
+[SENSITIVITY SETTINGS]
+sensativity(1-Very Sensitive,10-Not Sensitive) = 6
+
+[MAX VOLUME HOLD]
+time_to_hold_at_max_volume_for_announcements(default_30_seconds) = 30
