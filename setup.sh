@@ -44,6 +44,7 @@ sudo rpi-update
 
 echo "${YEL}Installing a series of required Devices${NC}"
 sudo apt-get install git bc libncurses5-dev bison flex libssl-dev screen
+sudo pip3 install sh
 
 echo "${YEL}Downloading and installing required Kernel Source${NC}"
 sudo wget https://raw.githubusercontent.com/notro/rpi-source/master/rpi-source -O /usr/bin/rpi-source
